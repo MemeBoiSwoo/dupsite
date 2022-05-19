@@ -1,0 +1,130 @@
+html {
+	scroll-behavior: smooth;
+}
+
+main {
+	position: relative;
+	z-index: -1;
+}
+
+.dropdown-toggle::after {
+	display: none !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	color: #d1d2d0 !important;
+	background-color: transparent !important;
+}
+
+.dropdown-menu {
+	background-color: transparent !important;
+    border: none !important;
+}
+
+.dropdown-item {
+	background-color: transparent !important;
+	color: #d1d2d0 !important;
+}
+
+.home-sec {
+    background-color: #3c5569 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #d1d2d0 !important;
+}
+
+.fashion-sec, .market-sec {
+    background-color: #ddddda !important;
+}
+
+h1 {
+    color: #ffffff !important;
+}
+
+.oem-sec {
+    background-color: #1c2254;
+}
+
+.oem-sec p, .oem-sec li {
+    color: #ffffff;
+}
+
+h2 {
+	color: #3c3939;
+}
+
+li {
+	padding-top: 0.75em;
+}
+
+.license-sec, .location-sec {
+	background-color: #ffffff;
+}
+
+.contact-sec {
+	background-image: url(https://static1.squarespace.com/static/5f22f08720410a0804931c67/t/5f32d7cabfdfc7168211f05a/1597167562533/FRONT_GP2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.footer, .footer a {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.market-jp-sec {
+	background-color: #1c2254;
+	color: #ffffff;
+}
+
+.market-jp-sec h2 {
+	color: #bdbcbc;
+}
+
+.oem-jp-sec {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.license-jp-sec {
+	background-color: #72783f;
+	color: #ffffff;
+}
+
+.license-jp-sec h2 {
+	color: #ffffff;
+}
+
+#header{
+	position: relative;
+	z-index: 1;
+	background-color: transparent;
+}
+
+.video-container {
+    position: relative;
+	margin-top: -100px;
+}
+
+.video-container iframe {
+	width: 100%;
+	height: 100%;
+	left:0;
+	right:0;
+	position: absolute;
+	object-fit: cover;
+	z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container h1 {
+	z-index: 1;
+	position: relative;
+	padding: 10px;
+}
+
+.footer .row {
+	--bs-gutter-x: 0;
+}
+/* *{ border: 1px solid red; } */
